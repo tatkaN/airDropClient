@@ -1,0 +1,49 @@
+<head>
+  <title>Airdrop</title>
+</head>
+
+<body>
+  <div id="top_head">
+    <div id="top_left">Хакатон. Airdrop. Ergo</div>
+    <div id="top_right"></div>
+  </div>
+
+  <div style="display:none;">
+    <input type="button" id="alert_error_button" name="alert_error_button"/>
+    <!--input type="button" id="account_login_password_button" name="account_login_password_button"/>
+    <input type="button" id="account_password_button" name="account_password_button"/-->
+  </div>
+
+  <div id="home_tabs">
+    <ul>
+      <li><a href="#home_tabs_enterAirdrop" title="Ввод данных Airdrop">Ввод данных Airdrop</a></li>
+      <li><a href="#home_tabs_distrAirdrop" title="Распределение Airdrop">Распределение Airdrop</a></li>
+    </ul>
+
+    <div id="home_tabs_enterAirdrop">
+      <ul>
+        <li><a href="#tabs_Participant1" title="Участник 1">Участник 1</a></li>
+      </ul>
+      <div id="tabs_Participant1">
+        {{> enter_participant}}
+      </div>
+    </div>
+    
+    <div id="home_tabs_distrAirdrop">
+      <ul>
+        <li><a href="#tab_settings" title="Настройка AirDrop">Настройка AirDrop</a></li>
+        <li><a href="#tab_list_airdrop" title="Список участников">Список участников</a></li>
+        <li><a href="#tab_transactions_airdrop" title="Транзакции">Транзакции</a></li>
+      </ul>
+      <div id="tab_settings">
+        {{> tab_settings}}
+      </div>
+      <div id="tab_list_airdrop">
+        {{> tab_list_airdrop}}
+      </div>
+      <div id="tab_transactions_airdrop">
+        {{> tab_transactions_airdrop}}
+      </div>
+    </div>
+  </div>
+</body>

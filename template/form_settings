@@ -1,0 +1,21 @@
+ <template name="enter_participant">
+   <form id="form_enter_participant">
+  	<label for="participant1_waves_address" class="ui-state-default text label_setting" >Адрес WAVES: </label>
+		<input type="text" id="participant1_waves_address" name="participant1_waves_address" 
+		class="ui-combobox-input ui-state-default ui-autocomplete-input ui-widget ui-widget-content ui-corner-all object"
+		value="0xE3503afEf1841E6F8Ae68bfc649C5318a8D7acD8" />
+		<br/>
+		<label for="participant1_bitcoin_address" class="ui-state-default text label_setting">Адресс БИТКОИН: </label>
+  	<input type="text" id="participant1_bitcoin_address" name="participant1_bitcoin_address" 
+		class="ui-combobox-input ui-state-default ui-autocomplete-input ui-widget ui-widget-content ui-corner-all object"
+		value="0x98F4509e4e97C299b89a4415e6b014508bd92C12" />
+  	<br/>
+		<label for="participant1_signature" class="ui-state-default text label_setting">Подпись: </label>
+  	<input type="text" id="participant1_signature" name="participant1_signature" 
+		class="ui-combobox-input ui-state-default ui-autocomplete-input ui-widget ui-widget-content ui-corner-all object"
+		value="H/zPGOhrUu1N/GKFmxup6onZR20i6gwLMbmtUN009/wYX2/rKz0Zwyj3dH9TDU/kA6z7YMZjzPltaNLntLvGs6w=" />
+  	<br/>
+      <br/>
+	    <input type="submit" id="savePartisipant_btn" value="Сохранить"><br/>
+   </form>
+</template>
