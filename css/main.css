@@ -1,0 +1,68 @@
+#top_head{
+	background-color:#b8d2e5;
+	color:#1564a0;
+	height:25px;
+	line-height:25px;
+	text-align:right;
+	width:100%;
+}
+#top_left{
+	position:absolute;
+	left:20px;
+	font-size:15px;
+}
+#top_right{
+	position:absolute;
+	right:20px;
+	font-size:15px;
+}
+input {
+	font-size:14px !important;
+	line-height:17px !important;
+}
+.btn-ui{
+ width:20px !important;
+ padding:0 !important;
+ margin-top: 5px;
+}
+.ui-selectmenu-button {
+ vertical-align: middle;
+}
+.ui-selectmenu-button span.ui-selectmenu-text {
+	font-weight: bold;
+	padding: 0.2em 0.2em 0.2em 0.2em;
+	line-height: 1;
+}
+.label, .label_setting{
+	text-align:right;
+}
+.label{
+	width:200px;
+}
+.label_setting{
+	width:400px;
+}
+.text{
+	display:inline-block;
+	margin:3px;
+	vertical-align:middle;
+	background:none !important;
+	border:none !important;
+	font-weight:normal !important;
+}
+.object{
+	width:500px;
+}
+.login{
+	width:400px;
+}
+table {
+	border-collapse: collapse;
+}
+table th {
+	text-align: left;
+}
+table tr td {
+	padding: 3px;
+	text-align: left;
+}
